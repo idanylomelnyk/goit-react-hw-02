@@ -1,0 +1,20 @@
+.buttonsList {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button {
+  border: 1px solid #888;
+  border-radius: 2px;
+  background-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: khaki;
+}
